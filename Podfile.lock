@@ -1,0 +1,12 @@
+PODS:
+  - KMNavigationBarTransition (1.1.5)
+
+DEPENDENCIES:
+  - KMNavigationBarTransition
+
+SPEC CHECKSUMS:
+  KMNavigationBarTransition: 7a52c9bc25b39b6e3343e980b453facee1591b82
+
+PODFILE CHECKSUM: 023400534f15814eeba63900e61f87fc3de7103a
+
+COCOAPODS: 1.4.0

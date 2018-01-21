@@ -64,7 +64,7 @@
                         <barButtonItem key="rightBarButtonItem" title="Item" id="uuO-Vd-SOx">
                             <connections>
                                 <action selector="buttonTapped:" destination="wOB-Er-fqY" id="ybx-IX-dP2"/>
-                                <segue destination="weA-8V-MUP" kind="show" id="M8y-BR-4m0"/>
+                                <segue destination="weA-8V-MUP" kind="show" identifier="Show SecondView" id="TsL-YE-WnB"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -123,7 +123,7 @@
         <!--Navigation Controller-->
         <scene sceneID="rYK-82-JwR">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Tpf-Rh-Nbt" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Tpf-Rh-Nbt" customClass="NavigationController" customModule="TransparentNavigationController" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="sWu-09-WnT">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
